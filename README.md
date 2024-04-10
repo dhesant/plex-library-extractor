@@ -5,7 +5,7 @@ Use the following steps to extract the Plex API URL from app.plex.tv, then pass 
 
 1. Open app.plex.tv in Chrome
 2. Open Chrome's Developer Tools (Ctrl+Shift+I or from the `More tools...` menu), and select the Network tab.
-3. Navigate to the library you want to extract in Plex. Find the line in the Developer Tools that looks like `https://XXXXXXXXXXXXX.plex.direct:XXXXX/library/sections/X/all?type=2&XXXXXXXXXXXXXXXXX`.
+3. Navigate to the library you want to extract in Plex. Find the line in the Developer Tools that looks like `https://XXXXXXXXXXXXX.plex.direct:XXXXX/library/sections/X/all?type=X&XXXXXXXXXXXXXXXXX`.
 4. Run the following command with the extracted URL and the desired file prefix.
 5. The script will output a .xml file with the Plex extract in the current folder.
 
